@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rehan's Corner</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: #d1d1d1;
+      font-family: 'Georgia', 'Times New Roman', serif;
+      line-height: 1.8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 650px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Headers */
+    h1 {
+      font-size: 2.2rem;
+      color: #ffffff;
+      font-weight: 400;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      text-transform: lowercase;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #888888;
+      margin-bottom: 50px;
+      font-style: italic;
+    }
+
+    .divider {
+      width: 40px;
+      height: 1px;
+      background-color: #333333;
+      margin: 40px auto;
+    }
+
+    /* Poetry Section */
+    .poem-section {
+      margin-top: 30px;
+    }
+
+    .poem-title {
+      font-size: 1.3rem;
+      color: #e0e0e0;
+      margin-bottom: 25px;
+      letter-spacing: 1px;
+    }
+
+    .stanza {
+      margin-bottom: 35px;
+      font-size: 1.1rem;
+      color: #b5b5b5;
+    }
+
+    .line {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    /* Subtle Fade-in Animation */
+    .fade-in {
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #444444;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container fade-in">
+    <!-- Introduction Section -->
+    <h1>rehan</h1>
+    <p class="intro">hello, my name is rehan. i'm 15. welcome to my thoughts.</p>
+
+    <div class="divider"></div>
+
+    <!-- Poetry Section -->
+    <div class="poem-section">
+      <h2 class="poem-title">echoes of lost affection</h2>
+
+      <div class="stanza">
+        <span class="line">we held hands in the dark,</span>
+        <span class="line">hoping the shadows wouldn't notice,</span>
+        <span class="line">how quickly a flame turns to ash</span>
+        <span class="line">when left out in the cold.</span>
+      </div>
+
+      <div class="stanza">
+        <span class="line">i memorized the cadence of your quiet words,</span>
+        <span class="line">only for them to become a ghost</span>
+        <span class="line">that haunts every silent room</span>
+        <span class="line">i ever walk into.</span>
+      </div>
+
+      <div class="stanza">
+        <span class="line">to love you was like reaching for stars</span>
+        <span class="line">from the bottom of an ocean—</span>
+        <span class="line">beautiful to look at,</span>
+        <span class="line">but silent and out of reach.</span>
+      </div>
+
+      <div class="stanza">
+        <span class="line">now i trace the edges of memories</span>
+        <span class="line">we never got to make,</span>
+        <span class="line">loving someone who exists</span>
+        <span class="line">only in the quiet hours of yesterday.</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer>
+      <p>&copy; rehan</p>
+    </footer>
+  </div>
+
+</body>
+</html>
